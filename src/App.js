@@ -1,11 +1,13 @@
 import React from "react";
-import {UnEffect , Unmount} from "./lifecycle/Unmount";
+import FooterIndex from "./reactrouterdom/FooterIndex";
+import { BrowserRouter} from "react-router-dom";
 
 function App() {
 return(
   <>
-  <Unmount />
-  <UnEffect />
+  <BrowserRouter>
+  <FooterIndex/>
+  </BrowserRouter>
   </>
   )
 }
