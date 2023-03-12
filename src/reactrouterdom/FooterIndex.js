@@ -9,7 +9,7 @@ const FooterIndex = ()=>{
         <h1>푸터영역입니다.</h1>
         <Routes>
         <Route path="/FooterIndex/*" element={<FooterIndex/>}/>
-        <Route path="/footer1" element={<Footer1/>}/>
+        <Route path="/footer1/:id" element={<Footer1/>}/>
         <Route path="/footer2" element={<Footer2/>}/>
         </Routes>
         <Footerlink/>
