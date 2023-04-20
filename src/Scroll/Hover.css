@@ -1,0 +1,31 @@
+.wrap{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+}
+.bg{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: skyblue;
+}
+.thumb{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    display: block;
+    left:50%;
+    transform : translateX(-50%);
+    top: 0;
+    transition: top 5s;
+}
+.thumb span{
+    /* 이미지가 들어갈 요소 */
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background: url();
+    background-size: contain;
+}
