@@ -1,14 +1,15 @@
 import React from "react";
-import Spring from "./spring/spring"
+import ProjectPage from "./componentRecycle/ProjectPage"
 
 
 
 
 function App() {
 return(
-  <>
-    <Spring/>
-  </>
+  <div>
+    ProjectPage
+    <ProjectPage/>
+  </div>
   )
 }
 
